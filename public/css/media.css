@@ -1,0 +1,38 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .portfolioImg>img {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .portfolioImg>img {
+        height: 200px;
+    }
+    .freelancer>div {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .portfolioImg>img {
+        height: 150px;
+    }
+    .freelancer>div {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .portfolioImg>img {
+        height: 100px;
+    }
+    .freelancer>div {
+        width: 40%;
+    }
+    .start-css {
+        display: none
+    }
+    .header-right {
+        padding-left: 20%;
+    }
+}
